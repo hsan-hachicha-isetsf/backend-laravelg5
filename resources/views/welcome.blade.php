@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>Mon application Laravel</title>
+
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-
+requests">
+
+<link href="{{ secure_asset('frontend/assets/index-CPXlk9qb.css') }}" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello World</h1>
+<div id="root"></div>
+<script src="{{ secure_asset('frontend/assets/index-IA86gbKq.js')}}"></script>
 </body>
 </html>
